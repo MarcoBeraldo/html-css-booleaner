@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+main, footer{
+    padding: 0 12%;
+    text-align: justify;
+}
+
 .sfondo-header{
     background-image: url( ../img/pattern.png);
     background-color: dodgerblue;
@@ -16,6 +21,7 @@
 h1{
     line-height: 90px;
     font-size: 70px;
+    text-align: left;
 }
 
 #scritto-da{
@@ -33,7 +39,7 @@ span{
 }
 
 figure .foto-tim{
-    height: 35vw;
+    height: 25vw;
 }
 
 figcaption{
@@ -71,4 +77,30 @@ thead{
 
 .evidenzia{
     background-color: yellow;
+}
+
+footer div{
+    display: block;
+    margin: 20px 0;
+    height: 208px;
+    width: 312px;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+}
+
+#correlati{
+    color: grey;
+}
+
+
+
+#corr1{
+    background-image: url(../img/monitor.jpg);
+    height: 208px
+}
+
+#corr2{
+    background-image: url(../img/graph.jpg);
+    height: 208px;
 }

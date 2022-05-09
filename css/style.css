@@ -57,6 +57,7 @@ figcaption{
 }
 
 table{
+    border-collapse: collapse;
     margin-top: 40px;
 }
 

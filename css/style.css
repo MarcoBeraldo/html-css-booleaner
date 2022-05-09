@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-main, footer{
+main, footer, #logo{
     padding: 0 12%;
     text-align: justify;
 }
